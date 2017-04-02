@@ -1,6 +1,6 @@
 {
   "name": "ball_shooter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "game",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,15 @@
     "collectCoverage": true
   },
   "dependencies": {
+    "koa": "^2.2.0",
+    "koa-logger": "^2.0.1",
+    "koa-static": "^3.0.0",
     "pixi.js": "^4.4.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "socket.io": "^1.7.3"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
